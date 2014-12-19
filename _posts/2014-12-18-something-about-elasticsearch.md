@@ -31,15 +31,15 @@ this is what i learn of elasticsearch
 1.  _mget
 2.  _query
 
-#### cluster(node)
+#### cluster
 1.  _cluster/settings 
 2.  _cluster/health
 3.  _cluster/state
 4.  _cluster/stats
 5.  _cluster/reroute 
+6.  _cluster/nodes/_local/_shutdown
 
 #### node
 0.  _nodes/
 1.  _nodes/stats
 3.  _nodes/hot_threads
-4.  _nodes/_showdown
