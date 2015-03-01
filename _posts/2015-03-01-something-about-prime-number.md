@@ -1,12 +1,8 @@
-# something-about-prime-number
-
-<!-- create time: 2015-03-01 19:13:53  -->
-
 ---
-layout: post
+layout: page 
 title: 素数与加密算法
 tags: 素数 go 加密算法
-
+category: math
 ---
 
 ### menu
