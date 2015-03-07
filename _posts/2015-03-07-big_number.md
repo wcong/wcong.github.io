@@ -23,7 +23,7 @@ type BigNumber struct {
 ```
 
 ##### 加,减,乘,幂
-代码实现在[bitnumber](https://github.com/wcong/big-number)
+代码实现在[bignumber](https://github.com/wcong/big-number)
 
 加减法是先计算正负值,根据正负值计算[]byte加减结果
 参见一下方法
