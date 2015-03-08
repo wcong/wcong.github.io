@@ -80,3 +80,6 @@ page:
   - text: 关于我
     url: /contact.html
     last: false
+
+author:
+  name: wcong
