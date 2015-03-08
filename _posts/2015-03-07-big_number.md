@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 大整数
 tags: go big-number
 category: go

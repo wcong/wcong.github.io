@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Some Tips About Java
 description: "some little but import thing about java"
 modified: 2014-02-01

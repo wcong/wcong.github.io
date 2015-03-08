@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Some Function Of Java 
 description: "Some Function Of Java( array_chunk,implode,and string partition )"
 modified: 2014-02-17

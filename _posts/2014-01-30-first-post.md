@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: My First Post
 description: "this is wcong first post"
 tags: [first post]

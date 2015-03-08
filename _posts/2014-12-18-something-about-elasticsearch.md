@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: post 
 title: something about elasticsearch
 category: elasticsearch
 tags: elasticsearch

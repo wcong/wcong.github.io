@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: post 
 title: 素数与加密算法
 tags: 素数 go 加密算法
 category: math
