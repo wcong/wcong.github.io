@@ -1,9 +1,10 @@
 ---
 layout: post
-title: go  json-rpc
+title: go json-rpc
 description: go json rpc,when valiable in struct is not always exposed
-tags:[go,json,rpc]
+tags: [go,json,rpc]
 ---
+
 #### go json rpc
 go默认的[rpc](/2015/03/09/go-rpc.html)要求参数的所有成员必须是暴露的(首字母大写)
 
