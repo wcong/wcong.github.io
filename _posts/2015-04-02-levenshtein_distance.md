@@ -20,7 +20,7 @@ category: 信息论
 *	建立martix记录两个字符串每个子前缀之间的距离(子前缀,如'abc'=>'a','ab','abc')
 *	matrix[i][j]保存的是substitution，insert，delete，三个操作中的最小消耗
 
-#### [实现-go]()
+#### [实现-go](https://github.com/wcong/practices/blob/master/levenshtein/wagner-fischer.go)
 ``` go
 package main
 
