@@ -61,3 +61,10 @@ double是1个sign位，11个exponent位，52个signficand位。
 * 标准float中，需要加1，(比如二进制(10000000000000000000000)代表0.10000000000000000000000)在计算实际值需要加上1，就是1.10000000000000000000000.
 * 非标准的不需要加1
 
+#### float 的二进制输出
+
+Integer.toBinaryString() 会省略首位的0
+
+``` java
+System.out.println(Integer.toBinaryString(Float.floatToRawIntBits(1.11f)));
+```
