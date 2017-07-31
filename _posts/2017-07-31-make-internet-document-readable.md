@@ -21,3 +21,6 @@ I am reading some online document for [java](http://docs.oracle.com/javase/8/doc
 #### so i should set some schedule and do that
 1. this week, sovle save and read things
 2. next week solve summary and markdown things
+
+#### follow up
+then i find out this satuation is only happend in laptap, where people trully want to study. so i change the develop tool to JavaFx where it runs everyware since i write it down
