@@ -1,85 +1,102 @@
-# Where things are
-source:       .
-destination:  ./_site
-plugins:      ./_plugins
-layouts:      ./_layouts
-paginate:     8
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-textile_ext:  "textile"
-# Filtering Content
-show_drafts:  null
-limit_posts:  0
-future:       true
-unpublished:  false
-# Conversion
-markdown:     kramdown
-highlighter:  pygments
-lsi:          false
-excerpt_separator: "\n\n"
-# Serving
-detach:       false
-port:         4000
-host:         127.0.0.1
-baseurl:      "" # does not include hostname
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: http://wcong.github.io
+date_format: "ordinal"
+title: wcong
+subtitle: "wcong"
+description: "wcong"
+keywords: wcong
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
 
-# Outputting
-permalink:     date
-paginate_path: /page:num
-timezone:      null
-# Site settings
-title: wcong blog
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: wcong
+organization: wcong.org
+organization_url: http://wcong.github.io
+github_username: wcong
+location: Hangzhou, China
 email: wc19920415@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-    hello world
-baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://wcong.github.io" # the base hostname & protocol for your site
-twitter_username: wcong2 
-github_username:  wcong
-feed: /atom.xml
 
-# Build settings
-# remember rdiscount is the normal markdown
-markdown: rdiscount 
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: Home
 
-#菜单配置
-nav:
-  - text: 首页
-    url: /index.html
-    icon: icon-home
-    class: home
-  - text: 文章归档
-    url: /archives.html
-    icon: icon-reorder
-    class: none
-  - text: 邮件
-    url: mailto:wc19920415@gmail.com
-    icon: icon-envelope-alt
-    class: none
-  - text: twitter
-    url: https://twitter.com/wcong2
-    icon: icon-twitter
-    class: none
-  - text: github
-    url: https://github.com/wcong
-    icon: icon-github
-    class: none
+  -
+    href: /categories/
+    label: Category
 
-page:
-  - text: 文章分类
-    url: /archives.html
-    last: true
-  - text: 友情链接
-    url: /links.html
-    last: true
-  - text: 关于我
-    url: /contact.html
-    last: false
+  -
+    href: /wiki/
+    label: Wiki
 
-author:
-  name: wcong
+  -
+    href: /links/
+    label: Links
+
+  -
+    href: /about/
+    label: About
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: wcong/wcong.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, netease_gentie, gitment
+comments_provider: gitment
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: wcong
+    repo: wcong.github.io
+    oauth:
+        client_id: 7f27c12f5d2fdc3a1857
+        client_secret: c662abf171494ac488f2969333e82c29046a7b5a
+
+lazy_load_disqus : false
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-103107514-1
